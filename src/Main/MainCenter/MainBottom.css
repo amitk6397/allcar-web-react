@@ -1,0 +1,172 @@
+.mainbottom{
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 50px 150px;
+}
+
+.mainbottom-card{
+	width: 255px;
+	height: 300px;
+	background-color: white;
+	border-radius: 8px;
+	text-align: left;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mainbottom-card-img1{
+	background-image: url(../../assets/tyres.jpg);
+}
+
+.mainbottom-card-img2{
+	background-image: url(../../assets/mot.jpg);
+}
+
+.mainbottom-card-img3{
+	background-image: url(../../assets/service.jpg);
+}
+
+.mainbottom-card h1{
+	color: white;
+	padding-left: 20px;
+	font-size: 35px;
+	margin-top: 10px;
+}
+
+.mainbottom-card h2{
+	padding-left: 20px;
+	font-size: 18px;
+	font-weight: 660;
+	color: white;
+}
+
+.mainbottom-minicard{
+	display: flex;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.mainbottom-card p{
+	color: blue;
+	padding-left: 20px;
+}
+.mainbottom-minicard p{
+	color: white;
+	padding-left: 20px;
+}
+
+
+.mainbottom-data{
+	width: 100%;
+	height: auto;
+	padding: 50px 150px;
+}
+
+.mainbottom-data h1{
+	color: black;
+	text-align: center;
+	font-size: 36px;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+
+.mainbottom-data-detail img{
+	width: 150px;
+	height: 50px;
+}
+
+.mainbottom-data-detail h2{
+	margin: 10px;
+	font-size: 26px;
+	font-family: Montserrat;
+}
+
+.mainbottom-data-detail p{
+	font-size: 13px;
+	margin-left: 10px;
+	font-family: Open Sans;
+}
+
+.mainbottom-data-detail ul, p{
+	font-size: 13px;
+	font-family: Open Sans;
+}
+
+.mainbottom-data-button{
+	padding: 10px;
+	width: 150px;
+	margin-left: 5px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 14px;
+	font-family: Montserrat;
+	background-color: #2E3263;
+	transition: all 0.5s;
+}
+
+.mainbottom-data-button:hover{
+	color: blue;
+	background-color: grey;
+	box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.7);
+}
+
+@media screen and (max-width:1070px){
+
+.mainbottom-card{
+	width: 280px;
+	height: 310px;
+	margin-bottom: 20px;
+}
+
+.mainbottom-data{
+	width: 100%;
+	height: auto;
+	padding: 50px 110px;
+}
+
+}
+
+@media screen and (max-width:900px){
+
+.mainbottom{
+	padding: 40px 80px;
+}
+
+.mainbottom-data{
+	width: 100%;
+	height: auto;
+	padding: 40px 50px;
+}
+}
+
+
+@media screen and (max-width:720px){
+
+.mainbottom{
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+}
+@media screen and (max-width:500px){
+
+.mainbottom{
+	padding: 10px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.mainbottom-data{
+	padding: 20px 5px;
+}
+
+}

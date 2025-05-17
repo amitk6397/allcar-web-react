@@ -1,0 +1,326 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.mainend{
+	width: 100%;
+	height: auto;
+	background-color: pink;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 150px;
+	background-image: url(../../assets/carrepair.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 150px;
+}
+
+.mainend-first{
+	width: 340px;
+	height: auto;
+	background-color: white;
+	margin-right: 50px;
+	padding: 20px;
+	border-radius: 10px;
+	opacity: 0.6;
+	cursor: pointer;
+	transition: opacity 0.5s;
+}
+
+.mainend-first:hover{
+	opacity: 1;
+}
+
+.mainend-first h1{
+	color: black;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+
+.mainend-first p{
+	font-family: Open Sans;
+	font-weight: 500;
+}
+
+.mainend-first img{
+	width: 80px;
+	height: 80px;
+}
+
+.mainend-first button{
+	width: 140px;
+	height: 40px;
+	margin: 10px 0;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	font-family: Montserrat;
+	font-weight: 600;
+	background-color: #2E3263;
+	transition: all 1s;
+}
+
+.mainend-first button:hover{
+	color: blue;
+	background-color: white;
+}
+
+.mainend-bottom{
+	width: 100%;
+	height: auto;
+}
+
+.mainend-bottom h1{
+	text-align: center;
+	color: #232628;
+	margin: 50px 0;
+	font-size: 36px;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.mainend-bottom-card{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 150px;
+}
+
+.mainend-bottom-card-details{
+	width: 220px;
+	height: 420px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	margin-right: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,0.6);
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.mainend-bottom-card-details h2{
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+
+.mainend-bottom-card-details p{
+	font-size: 16px;
+	font-family: Open Sans;
+}
+
+.mainend-bottom-card-details:hover{
+	box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+.mainend-bottom-card-details img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	object-fit: cover;
+	padding: 4px;
+	margin: 15px 0;
+}
+
+.mainend-bottom-book{
+	width: 100%;
+	height: auto;
+	background-color: #2E3263;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 150px;
+}
+
+.mainend-bottom-book button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	padding: 12px 0;
+	transiton: all 0.5s;
+	border: 1px solid #2E3263;
+}
+
+.mainend-bottom-book button:hover{
+	border: 1px solid white;
+	background-color: #2E3263;
+	color: white;
+}
+
+.mainend-bottom-book img{
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+	margin-right: 10px;
+}
+
+.mainend-bottom-book h3{
+	font-size: 26px;
+	font-weight: 700;
+	color: white;
+}
+
+.under_line{
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.first-long{
+	width: 33px;
+	height: 5px;
+	border-radius: 2px;
+	margin-right: 3px;
+	transform: skew(-40deg, 0deg);
+}
+
+.last-short{
+	width:20px;
+	height: 5px;
+	border-radius: 2px;
+	transform: skew(-40deg, 0deg);
+}
+
+
+@media screen and (max-width:1400px){
+
+.mainend{
+	padding: 50px 100px;
+}
+
+.mainend-first h1{
+	font-size: 30px;
+}
+.mainend-first p{
+	font-size: 15px;
+}
+
+.mainend-first img{
+	width: 60px;
+	height: 60px;
+}
+
+
+.mainend-bottom-book{
+	padding: 35px 100px;
+}
+
+.mainend-bottom-book h1{
+	font-size: 28px;
+}
+
+
+}
+
+@media screen and (max-width:1100px){
+
+.mainend{
+	padding: 40px 70px;
+}
+
+.mainend-first h1{
+	font-size: 26px;
+}
+
+.mainend-first p{
+	font-size: 14px;
+}
+
+.mainend-first img{
+	width: 50px;
+	height: 50px;
+}
+
+.mainend-bottom-book{
+	padding: 25px 60px;
+}
+
+.mainend-bottom-book h1{
+	font-size: 25px;
+}
+}
+
+@media screen and (max-width:900px){
+
+.mainend{
+	padding: 20px 30px;
+}
+
+.mainend-first h1{
+	font-size: 22px;
+}
+
+.mainend-first p{
+	font-size: 13px;
+}
+
+.mainend-first img{
+	width: 40px;
+	height: 40px;
+}
+
+.mainend-bottom-book{
+	padding: 20px 30px;
+}
+
+.mainend-bottom-book h1{
+	font-size: 20px;
+}
+
+}
+
+@media screen and (max-width:800px){
+
+
+.mainend{
+	flex-wrap: wrap;
+	padding: 5px;
+}
+.mainend-first{
+	width: 100%;
+	height: auto;
+	margin: 5px;
+}
+
+.mainend-bottom-card{
+	flex-wrap: wrap;
+	padding: 5px;
+}
+
+.mainend-bottom-card-details{
+	width: 100%;
+	height: auto;
+	margin: 5px;
+	padding: 10px 0 80px 0;
+}
+
+.mainend-bottom-book{
+	padding: 15px 20px;
+}
+
+.mainend-bottom-book h1{
+	font-size: 19px;
+}	
+}
+
+@media screen and (max-width:550px){
+
+.mainend{
+	padding: 100px 5px;
+}
+.mainend-bottom-book{
+	padding: 10px 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.mainend-bottom-book h1{
+	font-size: 18px;
+}
+
+}
